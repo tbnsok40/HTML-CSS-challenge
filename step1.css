@@ -1,0 +1,39 @@
+/* .main_box {
+  width: 800px;
+  height: 100px;
+  background-color: rgb(224, 171, 171);
+  position: absolute;
+}
+
+.upper {
+  position: relative;
+  top: 40px;
+  width: 800px;
+  height: 250px;
+  background-color: wheat;
+} */
+/* .below {
+  position: relative;
+  top: 40px;
+  width: 800px;
+  height: 290px;
+  background-color: skyblue;
+} */
+.below {
+  display: flex;
+}
+.below_left {
+  background-color: rgb(230, 150, 216);
+  width: 400px;
+  height: 290px;
+  display: inline-box;
+}
+.below_right {
+  background-color: rgb(85, 62, 238);
+  width: 400px;
+  height: 290px;
+}
+
+/* display:flex;
+justify-content:는 가로축
+align-items:는 세로축 */
