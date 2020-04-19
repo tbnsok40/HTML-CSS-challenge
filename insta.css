@@ -1,0 +1,161 @@
+.insta_container {
+  color: white;
+  background-color: rgba(69, 148, 240, 0.822);
+  border: 1.3px solid black;
+  border-radius: 0.8%;
+  width: 560px;
+  height: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+.top-nav {
+  /* border: 2px solid black; */
+  padding: 10px;
+  border-bottom: 1px solid #f7f7f7;
+}
+.nick,
+.menu {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu {
+  float: right;
+}
+
+.pr-img {
+  display: inline-block;
+  border-radius: 50%;
+  padding-left: 20px;
+  width: 90px;
+  height: 90px;
+  float: left;
+  position: relative;
+}
+.add-icon {
+  /* background-color: rgb(92, 167, 238); */
+  color: snow;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 50%;
+  /* border-radius: 50%; */
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -3px;
+  right: -5px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.ac-info {
+  padding: 15px;
+}
+
+.info-box {
+  display: inline-flex;
+  width: 300px;
+  height: 100px;
+  margin-left: 90px;
+}
+
+.info-item {
+  text-align: center;
+  flex: 1;
+  width: 90px;
+  font-size: 16px;
+  padding-top: 25px;
+  /* display: inline-flex; */
+  /* 이거 설정하니까 가운데 정렬이 좌로 정렬이 된다.
+  flex로 해버리니까 가운데 정렬이 무의미해져버린것 */
+  justify-content: center;
+  align-items: center;
+}
+.info-numeric {
+  display: block;
+  font-weight: 600;
+  font-size: 20px;
+}
+.my-name {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.my-name-main {
+  display: block;
+  font-weight: 700;
+}
+.my-name-intro {
+  opacity: 90%;
+}
+.pr-edit {
+  border: 1px solid whitesmoke;
+  margin: 10px 0px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+}
+.highlight {
+  padding: 5px;
+}
+.circle1 {
+  display: inline-block;
+
+  width: 17%;
+  height: 100px;
+  margin: 0 3px;
+}
+.dong {
+  width: 70px;
+  height: 70%;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.dong-info {
+  margin-top: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: black;
+}
+.photo-container {
+  border: 2px solid green;
+}
+.feed-nav {
+  display: flex;
+  margin-bottom: 20px;
+}
+.feed-nav-item {
+  border: 2px solid red;
+  text-align: center;
+  flex: 1;
+  padding: 10px 0;
+}
+
+.photo-item {
+  border: 2px solid blue;
+  display: inline-block;
+  width: 31%;
+  height: 150px;
+  margin-right: -2px;
+}
+.bottom-nav {
+  position: absolute;
+  bottom: 0px;
+  /* insta-container에 position: relative;를 걸어줘야한다 */
+
+  width: 100%;
+  display: flex;
+  /* margin-bottom: 10px; */
+}
+.bottom-nav-item {
+  display: inline-block;
+  flex: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
