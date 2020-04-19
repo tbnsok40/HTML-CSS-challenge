@@ -1,9 +1,9 @@
 .insta_container {
   color: white;
-  background-color: rgba(69, 148, 240, 0.822);
-  border: 1.3px solid black;
+  background-color: rgb(71, 129, 196);
+  border: 1.3px solid white;
   border-radius: 0.8%;
-  width: 560px;
+  width: 540px;
   height: 1000px;
   margin: 0 auto;
   position: relative;
@@ -33,11 +33,11 @@
   position: relative;
 }
 .add-icon {
-  /* background-color: rgb(92, 167, 238); */
+  background-color: rgb(71, 129, 196);
   color: snow;
-  width: 30px;
-  height: 30px;
-
+  width: 29px;
+  height: 29px;
+  border: 1px solid white;
   border-radius: 50%;
   /* border-radius: 50%; */
   font-weight: bold;
@@ -45,7 +45,7 @@
   align-items: center;
   justify-content: center;
   position: absolute;
-  bottom: -3px;
+  bottom: -5px;
   right: -5px;
 }
 .img {
@@ -122,25 +122,31 @@
   color: black;
 }
 .photo-container {
-  border: 2px solid green;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .feed-nav {
   display: flex;
-  margin-bottom: 20px;
+  /* margin: 15px 15px 0px 15px; */
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  opacity: 80%;
 }
 .feed-nav-item {
-  border: 2px solid red;
   text-align: center;
   flex: 1;
   padding: 10px 0;
 }
 
 .photo-item {
-  border: 2px solid blue;
   display: inline-block;
   width: 31%;
   height: 150px;
-  margin-right: -2px;
+}
+.photo {
+  width: 100%;
+  height: 100%;
 }
 .bottom-nav {
   position: absolute;
