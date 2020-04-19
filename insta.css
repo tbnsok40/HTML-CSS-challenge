@@ -1,4 +1,5 @@
 .insta_container {
+  box-shadow: 15px 10px 15px 5px rgb(170, 193, 228);
   color: white;
   background-color: rgb(71, 129, 196);
   border: 1.3px solid white;
