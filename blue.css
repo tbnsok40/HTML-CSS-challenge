@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(196, 208, 230);
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: fix;
+  height: 100px;
+  background-color: rgb(196, 208, 230);
+  border-bottom: 1px solid black;
+  /* border-radius: 10px 10px 0px 0px; */
+}
+
+.container {
+  margin: 0 auto;
+  background-color: white;
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: 50px;
+}
+
+.menu {
+  width: 180px;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+}
+
+.body {
+  width: 1000px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.body_upper {
+  width: 1000px;
+  height: 30px;
+}
+.left {
+  width: 700px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px 0px 0px 10px;
+}
+.left_table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.month {
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: turquoise;
+  width: 900px;
+  height: 50px;
+}
+.right {
+  padding-top: 20px;
+  padding-left: 20px;
+  width: 280px;
+  height: 480px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 0px 10px 10px 0px;
+}
+
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+.bottom {
+  border-top: 1px solid black;
+  width: 800px;
+  height: 200px;
+  background-color: white;
+  text-align: center;
+}
+.bottom_span {
+  /* display: inline-block; */
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+table {
+  margin-top: 50px;
+  border: 1px solid red;
+}
