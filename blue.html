@@ -5,106 +5,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>blue-reservation</title>
     <link rel="stylesheet" href="blue.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="header">
-      <button class="menu">About</button>
-      <button class="menu">예약</button>
-      <button class="menu">게시판</button>
-      <button class="menu">일정</button>
-    </nav>
-    <div class="container">
-      <div class="body">
-        <div class="left">
-          <div class="month">May</div>
-          <div class="left_table">
-            <table style="width: 550px; height: 350px; text-align: right;">
-              <tr>
-                <td>S</td>
-                <td>M</td>
-                <td>T</td>
-                <td>W</td>
-                <td>T</td>
-                <td>F</td>
-                <td>S</td>
-              </tr>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>1</td>
-                <td>2</td>
-              </tr>
+    <div class="container_main">
+      <div class="container2">
+        <nav class="menu">
+          <a href="#" class="menu-item">
+            <!-- <span class="material-icons"></span> -->
+            <span class="menu-item-label">About</span>
+          </a>
+          <a href="#" class="menu-item">
+            <!-- <span class="material-icons"></span> -->
+            <span class="menu-item-label">Reservation</span>
+          </a>
+          <a href="#" class="menu-item">
+            <!-- <span class="material-icons"></span> -->
+            <span class="menu-item-label">Board</span>
+          </a>
+          <a href="#" class="menu-item">
+            <!-- <span class="material-icons"></span> -->
+            <span class="menu-item-label">Schedule</span>
+          </a>
+        </nav>
+      </div>
 
-              <tr>
-                <td>3</td>
-                <td>4</td>
-                <td>5</td>
-                <td>6</td>
-                <td>7</td>
-                <td>8</td>
-                <td>9</td>
-              </tr>
-              <tr>
-                <td>10</td>
-                <td>11</td>
-                <td>12</td>
-                <td>13</td>
-                <td>14</td>
-                <td>15</td>
-                <td>16</td>
-              </tr>
-              <tr>
-                <td>17</td>
-                <td>18</td>
-                <td>19</td>
-                <td>20</td>
-                <td>21</td>
-                <td>22</td>
-                <td>23</td>
-              </tr>
-              <tr>
-                <td>24</td>
-                <td>25</td>
-                <td>26</td>
-                <td>27</td>
-                <td>28</td>
-                <td>29</td>
-                <td>30</td>
-              </tr>
-              <tr>
-                <td>31</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
-            </table>
-          </div>
-        </div>
+      <div class="container">
+        <div class="body">
+          <div class="left">
+            <div class="month">
+              May
+              <span style="font-weight: 300;">2020</span>
+            </div>
+            <div class="left_table">
+              <table style="width: 600px; height: 350px; text-align: right;">
+                <tr>
+                  <td>Sun</td>
+                  <td>Mon</td>
+                  <td>Tue</td>
+                  <td>Wed</td>
+                  <td>Thu</td>
+                  <td>Fri</td>
+                  <td>Sat</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>1</td>
+                  <td>2</td>
+                </tr>
 
-        <div class="right">
-          <div>
-            Time
-            <div><input type="text" style="width: 250px;" /></div>
+                <tr>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>7</td>
+                  <td>8</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                </tr>
+                <tr>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                  <td>21</td>
+                  <td>22</td>
+                  <td>23</td>
+                </tr>
+                <tr>
+                  <td>24</td>
+                  <td>25</td>
+                  <td>26</td>
+                  <td>27</td>
+                  <td>28</td>
+                  <td>29</td>
+                  <td>30</td>
+                </tr>
+                <tr>
+                  <td>31</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </div>
           </div>
-          <div>
-            Student Number
-            <div><input type="text" style="width: 250px;" /></div>
+
+          <div class="right">
+            <div style="margin-bottom: 15px;">
+              Time
+              <div>
+                <input type="text" style="width: 250px; height: 30px;" />
+              </div>
+            </div>
+            <div style="margin-bottom: 15px;">
+              Student Number
+              <div>
+                <input type="text" style="width: 250px; height: 30px;" />
+              </div>
+            </div>
+            <div style="margin-bottom: 15px;">
+              Name
+              <div>
+                <input type="text" style="width: 250px; height: 30px;" />
+              </div>
+            </div>
+            <div style="margin-bottom: 15px;">
+              Phone
+              <div>
+                <input type="text" style="width: 250px; height: 30px;" />
+              </div>
+            </div>
+            <div><button>submit</button></div>
           </div>
-          <div>
-            name
-            <div><input type="text" style="width: 250px;" /></div>
-          </div>
-          <div>
-            phone
-            <div><input type="text" style="width: 250px;" /></div>
-          </div>
-          <div><button>submit</button></div>
         </div>
       </div>
     </div>
