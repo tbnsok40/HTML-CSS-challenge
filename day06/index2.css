@@ -1,0 +1,37 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: rgb(241, 218, 87);
+  display: flex;
+  align-items: center;
+}
+.container {
+  margin: 0 auto;
+  background-color: rgb(241, 218, 87);
+
+  /* 이거만 있으면 중앙배치가 안돼! 왜냐면 width가 화면 끝까지 차지하고있기때문이니, width를 원하는 크기로 설정해주기 */
+  width: 80px;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* align-items: center; */
+  animation: 1s aniani infinite ease-in-out;
+}
+.box {
+  text-align: center;
+  background-color: royalblue;
+  height: 30px;
+  width: 10px;
+}
+
+@keyframes aniani {
+  from {
+    transform: none;
+  }
+  to {
+    transform: (height 65px);
+  }
+}
