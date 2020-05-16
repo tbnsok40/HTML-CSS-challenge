@@ -10,3 +10,12 @@ html/css 16 challenge
 
 
 # KaKao
+## day03
+- fixed, float -> position:relative
+## day04
+- hover, display:flex
+## day05
+- hover, transition
+## day06
+- animation, transition, transform
+
