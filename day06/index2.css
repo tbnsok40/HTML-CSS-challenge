@@ -18,7 +18,6 @@ body {
   justify-content: space-around;
   align-items: center;
   /* align-items: center; */
-  animation: 1s aniani infinite ease-in-out;
 }
 .box {
   text-align: center;
@@ -26,12 +25,87 @@ body {
   height: 30px;
   width: 10px;
 }
-
+.box:nth-child(1) {
+  animation: 1s aniani infinite ease-in-out;
+}
+.box:nth-child(2) {
+  animation: 1s aniani2 infinite ease-in-out;
+}
+.box:nth-child(3) {
+  animation: 1s aniani3 infinite ease-in-out;
+}
+.box:nth-child(4) {
+  animation: 1s aniani4 infinite ease-in-out;
+}
+.box:nth-child(5) {
+  animation: 1s aniani5 infinite ease-in-out;
+}
+.box:nth-child(6) {
+  animation: 1s aniani6 infinite ease-in-out;
+}
 @keyframes aniani {
-  from {
+  0% {
     transform: none;
   }
-  to {
-    transform: (height 65px);
+  30% {
+    transform: scale(1, 2);
+  }
+  70% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes aniani2 {
+  10% {
+    transform: none;
+  }
+  40% {
+    transform: scale(1, 2);
+  }
+  80% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes aniani3 {
+  20% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1, 2);
+  }
+  90% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes aniani4 {
+  30% {
+    transform: none;
+  }
+  60% {
+    transform: scale(1, 2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes aniani5 {
+  40% {
+    transform: none;
+  }
+  70% {
+    transform: scale(1, 2);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
+}
+@keyframes aniani6 {
+  50% {
+    transform: none;
+  }
+  80% {
+    transform: scale(1, 2);
+  }
+  100% {
+    transform: scale(1, 1);
   }
 }
